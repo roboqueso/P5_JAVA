@@ -6,14 +6,14 @@ import processing.core.PShape;
 import java.awt.*;
 
 /**
- * You need to add all of the jars in core/library to the build path of your Eclipse project, not just core.jar.
- * In this case you're missing the jogl ones (Java OpenGL, needed for the P3D and P2D renderers).
+ * sketch   ->  added incrementor param to shapeJous() to help with the trial of finding the perfect point count ( incrementor )
+ * s    ->  saves .png
+ * esc  ->  saves .png, kills sketch
  */
 
 
 /**
- * First attempt porting PDE to Java.class
- * src: shapeJous.pde
+ * This is the sketch
  */
 public class Main extends PApplet {
 
