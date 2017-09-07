@@ -13,11 +13,11 @@ Take care and luck!
 **- Fickes**
 
 
-#![P5_JAVA](http://ericfickes.weebly.com/uploads/1/2/1/9/12193347/github-p5-java_orig.png)#
+----------
 
 
-
-##hot links##
+**hot links**
+---------
 
 - [HYPE FRAMEWORK](http://www.hypeframework.org/)
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/features/editions_comparison_matrix.html)
@@ -26,3 +26,7 @@ Take care and luck!
 - [Sublime Text 3](https://www.sublimetext.com/3)
 
 
+----------
+
+
+![P5_JAVA](http://ericfickes.weebly.com/uploads/1/2/1/9/12193347/github-p5-java_orig.png)
