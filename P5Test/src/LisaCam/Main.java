@@ -133,6 +133,8 @@ public class Main extends PApplet {
             {
                 PVector vect = tmp.getVertex(vv);
                 vertex( vect.x, vect.y, vect.z, vect.y, vect.x );
+
+                // NOTE : texture() only works with vertex()
             }
         endShape();
 
