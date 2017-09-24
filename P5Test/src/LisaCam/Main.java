@@ -25,7 +25,6 @@ import processing.video.Capture;
  * - PNGs are now saving to the P5Test/out folder
  * save(  "/Users/fickes/Documents/IntelliJ/P5Test/out/" + this + "_" + ct + ".png");
  *
- * TODO : make 1 savePng() function and reuse instead of the current 3 different places save() is called
  *
  * - This is the example showing WebCam as the shape's fill texture.
  * -    Sketch requirement : import processing.video.Capture;
