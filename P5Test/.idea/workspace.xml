@@ -16,29 +16,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/BezCurQua/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#11298#11299#0" expanded="true" />
-                <element signature="e#11400#11401#0" expanded="true" />
-                <element signature="e#11500#11501#0" expanded="true" />
-                <element signature="e#11554#11555#0" expanded="true" />
-                <marker date="1506227344000" expanded="false" signature="11799:11810" ph=" { " />
-                <marker date="1506227344000" expanded="false" signature="11843:11849" ph=" }" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/MoreCurves/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="186" column="21" lean-forward="true" selection-start-line="186" selection-start-column="21" selection-end-line="186" selection-end-column="21" />
-              <folding>
-                <element signature="e#10229#10230#0" expanded="true" />
-                <element signature="e#10278#10279#0" expanded="true" />
->>>>>>> 78312266cd89704520caed19fc5d627b14d5f3e5
-              </folding>
+            <state relative-caret-position="377">
+              <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,17 +36,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-<<<<<<< HEAD
-=======
-      <find>vertex</find>
-      <find>createShape(</find>
-      <find>ct</find>
-      <find>class Main</find>
-      <find>background(255)</find>
-      <find>strokeWeight</find>
-      <find>text</find>
-      <find>saveIncrements</find>
->>>>>>> 78312266cd89704520caed19fc5d627b14d5f3e5
       <find>save</find>
       <find>&quot;/Users/fickes/Documents/IntelliJ/P5Test/out/&quot;</find>
       <find>sa</find>
@@ -84,7 +55,6 @@
       <find>227</find>
       <find>get(</find>
       <find>smooth(</find>
-<<<<<<< HEAD
       <find>CurveJuice</find>
       <find>bezier</find>
       <find>bezierV</find>
@@ -96,10 +66,6 @@
       <find>bezierVertex</find>
       <find>xyInc</find>
       <find>quad</find>
-=======
-      <find>ZombieCurves</find>
-      <find>begin</find>
->>>>>>> 78312266cd89704520caed19fc5d627b14d5f3e5
     </findStrings>
     <replaceStrings>
       <replace />
@@ -112,12 +78,8 @@
       <replace>CurveJuice</replace>
       <replace>225</replace>
       <replace>ZombieCurves</replace>
-<<<<<<< HEAD
       <replace>BezCurQua</replace>
       <replace>ctl2</replace>
-=======
-      <replace>MoreCurves</replace>
->>>>>>> 78312266cd89704520caed19fc5d627b14d5f3e5
     </replaceStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -145,20 +107,15 @@
         <option value="$PROJECT_DIR$/src/TextureTweak/Main.java" />
         <option value="$PROJECT_DIR$/src/CurveJuice/Main.java" />
         <option value="$PROJECT_DIR$/src/ZombieCurves/Main.java" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/LisaCam/Main.java" />
         <option value="$PROJECT_DIR$/src/BezCurQua/Main.java" />
-=======
-        <option value="$PROJECT_DIR$/src/MoreCurves/Main.java" />
->>>>>>> 78312266cd89704520caed19fc5d627b14d5f3e5
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="66" />
-    <option name="y" value="135" />
-    <option name="width" value="2560" />
-    <option name="height" value="1418" />
+    <option name="y" value="22" />
+    <option name="width" value="2280" />
+    <option name="height" value="1191" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -175,11 +132,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
-=======
->>>>>>> 78312266cd89704520caed19fc5d627b14d5f3e5
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,45 +158,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LisaCam" type="462c0819:PsiDirectoryNode" />
             </path>
-<<<<<<< HEAD
-=======
-            <path>
-              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MoreCurves" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TextureTweak" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Thirteen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ZombieCurves" type="462c0819:PsiDirectoryNode" />
-            </path>
->>>>>>> 78312266cd89704520caed19fc5d627b14d5f3e5
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-=======
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
->>>>>>> 78312266cd89704520caed19fc5d627b14d5f3e5
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,11 +182,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-<<<<<<< HEAD
       <recent name="BezCurQua" />
-=======
-      <recent name="MoreCurves" />
->>>>>>> 78312266cd89704520caed19fc5d627b14d5f3e5
       <recent name="ZombieCurves" />
       <recent name="CurveJuice" />
       <recent name="Noodling" />
@@ -291,11 +208,7 @@
     <configuration name="Main" type="Application" factoryName="Application" singleton="true" temporary="true" show_console_on_std_out="true" show_console_on_std_err="true" nameIsGenerated="true">
       <output_file path="$PROJECT_DIR$/out" is_save="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="BezCurQua.Main" />
-=======
-      <option name="MAIN_CLASS_NAME" value="MoreCurves.Main" />
->>>>>>> 78312266cd89704520caed19fc5d627b14d5f3e5
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -427,7 +340,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20634921" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17082389" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16402116" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -438,16 +351,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10801145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1076251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123510726" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10841938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.123510726" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
->>>>>>> 78312266cd89704520caed19fc5d627b14d5f3e5
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1096108" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -458,12 +365,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961673" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-=======
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961673" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
->>>>>>> 78312266cd89704520caed19fc5d627b14d5f3e5
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -485,7 +387,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ZombieCurves/Main.java">
-<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -493,19 +394,40 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CurveJuice/Main.java">
-=======
->>>>>>> 78312266cd89704520caed19fc5d627b14d5f3e5
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CurveJuice/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/TextureTweak/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/TextureTweak/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/FillYourself/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/SketchSmooth/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/TextureTweak/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TextureTweak/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FillYourself/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SketchSmooth/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bueno/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -531,14 +453,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LisaCam/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/LisaCam/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/PI/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/LisaCam/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/PI/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/PI/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/PI/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Thirteen/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/LisaCam/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LisaCam/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PI/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LisaCam/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="111" column="54" lean-forward="true" selection-start-line="111" selection-start-column="54" selection-end-line="111" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PI/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PI/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PI/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thirteen/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test4/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -658,7 +628,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thirteen/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Thirteen/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="39" column="3" lean-forward="false" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Applications/Processing.app/Contents/Java/core/library/core.jar!/processing/opengl/PGraphicsOpenGL.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -673,8 +649,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/src.zip!/java/io/File.java" />
-    <entry file="file://$PROJECT_DIR$/src/PI/Main.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="148" column="13" lean-forward="false" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PI/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="133" column="17" lean-forward="false" selection-start-line="133" selection-start-column="12" selection-end-line="133" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MathOverflow/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/Bueno/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -686,7 +674,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MathOverflow/SketchSmooth.java" />
     <entry file="file://$PROJECT_DIR$/src/SketchSmooth/SketchSmooth.java" />
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/SketchSmooth/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -726,44 +713,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
           <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/SketchSmooth/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/FillYourself/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/TextureTweak/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/LisaCam/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/CurveJuice/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/ZombieCurves/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="187" column="0" lean-forward="true" selection-start-line="184" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
->>>>>>> 78312266cd89704520caed19fc5d627b14d5f3e5
-          <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/BezCurQua/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#11298#11299#0" expanded="true" />
-            <element signature="e#11400#11401#0" expanded="true" />
-            <element signature="e#11500#11501#0" expanded="true" />
-            <element signature="e#11554#11555#0" expanded="true" />
-            <marker date="1506227344000" expanded="false" signature="11799:11810" ph=" { " />
-            <marker date="1506227344000" expanded="false" signature="11843:11849" ph=" }" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/MoreCurves/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="186" column="21" lean-forward="true" selection-start-line="186" selection-start-column="21" selection-end-line="186" selection-end-column="21" />
-          <folding>
-            <element signature="e#10229#10230#0" expanded="true" />
-            <element signature="e#10278#10279#0" expanded="true" />
->>>>>>> 78312266cd89704520caed19fc5d627b14d5f3e5
-          </folding>
+        <state relative-caret-position="377">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

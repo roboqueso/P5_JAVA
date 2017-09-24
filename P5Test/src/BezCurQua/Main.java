@@ -27,6 +27,10 @@ import processing.core.PVector;
  *
  * All saving of PNG goes through savePng("") now
  *
+ * DEBUG - point count now showing
+ *  // debug - show point count
+    text( tmp.getVertexCount() , xx, yy );
+ *
  * ---------------------------------
  *  HISTORY
  * ---------------------------------
@@ -120,7 +124,7 @@ public class Main extends PApplet {
 
 
 
-    int CURVE_MODE = 2; //  0 bezier, 1 curve
+    int CURVE_MODE = 0; //  0 bezier, 1 curve
 
     int cX, cY, xx, yy, xyInc;
     int ct = 9, w = 42;
@@ -134,13 +138,16 @@ public class Main extends PApplet {
     String PNG_OUT = PROJECT_ROOT + "/out/";
 
 
+
+
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     @Override
     public  void  settings ()  {
         size(1280, 720, "processing.opengl.PGraphics3D");
         smooth(8);  //  smooth() can only be used in settings();
         pixelDensity(displayDensity());
-// TODO - WTF is sketchSmooth();
+
+        // TODO - what is sketchSmooth();
         sketchSmooth();
     }
 
@@ -155,19 +162,21 @@ public class Main extends PApplet {
      Note: Variables DECLARED within setup() are not accessible within other functions, including draw().
      */
     public  void  setup ()  {
-// TODO: do these do anything?
-hint(ENABLE_OPTIMIZED_STROKE);
-hint(ENABLE_STROKE_PERSPECTIVE);
-hint(ENABLE_STROKE_PURE);
 
-hint(ENABLE_DEPTH_MASK);
-hint(ENABLE_DEPTH_SORT);
-hint(ENABLE_DEPTH_TEST);
 
-hint(ENABLE_ASYNC_SAVEFRAME);
-hint(ENABLE_BUFFER_READING);
-hint(ENABLE_TEXTURE_MIPMAPS);
-// TODO: what HINTs should be looked at for additional smoothing
+    // TODO: do these do anything?
+    hint(ENABLE_OPTIMIZED_STROKE);
+    hint(ENABLE_STROKE_PERSPECTIVE);
+    hint(ENABLE_STROKE_PURE);
+
+    hint(ENABLE_DEPTH_MASK);
+    hint(ENABLE_DEPTH_SORT);
+    hint(ENABLE_DEPTH_TEST);
+
+    hint(ENABLE_ASYNC_SAVEFRAME);
+    hint(ENABLE_BUFFER_READING);
+    hint(ENABLE_TEXTURE_MIPMAPS);
+    // TODO: what HINTs should be looked at for additional smoothing
 
         setupStage();
 
@@ -189,17 +198,15 @@ hint(ENABLE_TEXTURE_MIPMAPS);
 
         tmp = shapeJous(xx, yy, w, ct);
 
-
-//stroke(frameCount%255);
-
-
-noStroke();
+// debug - show point count
+text( tmp.getVertexCount() , xx, yy );
 
         beginShape();
 
-
-
+            //  put down a vertex for the curves
             vertex(xx, yy, w);
+
+            //  using final vertex as control point
             ctl2 = tmp.getVertex(tmp.getVertexCount() - 1);
 
             for(int vv = 0; vv < tmp.getVertexCount(); vv++ )
@@ -210,22 +217,22 @@ noStroke();
                         case 0:
 
                             fill(vect.x %255, vect.y  %255, vect.z  %255);
-//                            stroke(vv*w);
+                            stroke(vv*w, 100);
 
 
                             //  TODO : bezierDetail
                             bezierDetail( 20+vv );
 
                             //  NICE & FLOWERY
-//                            bezierVertex(   ctl2.x, ctl2.y, ctl2.z,
-//                                        xx+vv, yy+vv, w+vv,
-//                                            vect.x, vect.y, vect.z );
+                            bezierVertex(   ctl2.x, ctl2.y, ctl2.z,
+                                        xx+vv, yy+vv, w+vv,
+                                            vect.x, vect.y, vect.z );
 
 //  BETA
-                            bezierVertex(xx+vv, yy+vv, w+vv,
-                                    ctl2.x+w+vv, ctl2.y+w+vv, ctl2.z+w+vv,
-                                    vect.x, vect.y, vect.z
-                                         );
+//                            bezierVertex(xx+vv, yy+vv, w+vv,
+//                                    ctl2.x+w+vv, ctl2.y+w+vv, ctl2.z+w+vv,
+//                                    vect.x, vect.y, vect.z
+//                                         );
 
 
                             break;
@@ -235,6 +242,7 @@ noStroke();
 
 
                             fill(vect.z %255, vect.x  %255, vect.y  %255);
+                            stroke(vv*w, 100);
 
                             //  TODO : curveDetail
                             curveDetail(20+vv);
