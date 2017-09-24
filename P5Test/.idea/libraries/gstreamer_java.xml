@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="gstreamer-java">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../PROCESSING3/libraries/video/library/gstreamer-java.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../PROCESSING3/libraries/video/library/jna.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../PROCESSING3/libraries/video/library/video.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Processing3/libraries/video/library/gstreamer-java.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Processing3/libraries/video/library/jna.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Processing3/libraries/video/library/video.jar!/" />
     </CLASSES>
     <JAVADOC />
     <NATIVE>
-      <root url="file://$PROJECT_DIR$/../../PROCESSING3/libraries/video/library/macosx64" />
+      <root url="file://$PROJECT_DIR$/../../Processing3/libraries/video/library/macosx64" />
     </NATIVE>
     <SOURCES />
   </library>
