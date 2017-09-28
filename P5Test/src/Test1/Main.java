@@ -32,7 +32,8 @@ public class Main extends PApplet {
 
     @Override
     public  void  settings ()  {
-        size(666, 666, "processing.opengl.PGraphics3D");
+        size(1280, 720, "processing.opengl.PGraphics3D");
+//        size(1280, 720, "P3D");
         //  TODO : how to set P3D???
 
     }
@@ -47,7 +48,7 @@ public class Main extends PApplet {
      */
     public  void  setup ()  {
 
-        size(666,666,P3D);
+//        size(666,666,P3D);
 
         noFill();
         smooth();

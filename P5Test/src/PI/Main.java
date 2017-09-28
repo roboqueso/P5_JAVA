@@ -88,6 +88,8 @@ public class Main extends PApplet {
         //  no fill B&W stroke
         noFill();
         stroke(frameCount%255);
+
+
         shape(tmp);
 
         stroke(frameCount%255);
@@ -95,9 +97,9 @@ public class Main extends PApplet {
         //  do the FredV
         pushMatrix();
 
-//TODO: how do you get 3D shapes different color than 2D shapes?
-fill(255, frameCount%255, frameCount%255);
-stroke(frameCount%255);
+            //TODO: how do you get 3D shapes different color than 2D shapes?
+            //fill(255, frameCount%255, frameCount%255);
+            stroke(frameCount%255);
 
             translate(xx, yy, w);
             scale(random(.6f,4.2f));

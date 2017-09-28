@@ -148,11 +148,11 @@ hint(ENABLE_STROKE_PURE);
 
 
         //  just one shape
-        beginShape();
+        beginShape(POLYGON);
 
             // NOTE: this only works with vertex
             // FILL YOURSELF -> don't get FULL desktop, just get w x w
-//            texture( get(xx,yy, w*3, w*3) );
+            texture( get(xx,yy,width,w+ct) );
 
 
             for(int vv = 0; vv < tmp.getVertexCount(); vv++ )
@@ -161,7 +161,7 @@ hint(ENABLE_STROKE_PURE);
 
 //  no fill w/texture(), use tint()
 //  tint(vect.x, vect.y, vect.z);
-//  vertex( vect.x, vect.y, vect.z, vect.y, vect.x );
+//  vertex( vect.x, vect.y, vect.z, xx, yy );
 
                 //  no texture w/curveVertex
                 fill(vect.x, vect.y, vect.z);

@@ -173,26 +173,28 @@ hint(ENABLE_STROKE_PURE);
                 PVector vect = tmp.getVertex(vv);   // GET VERTEX 1ST, color below depends on it
 
                 //  no texture w/curveVertex
-                //stroke(frameCount%140, 225);
-                stroke(vect.x);
+                stroke(frameCount%140, 225);
 
-                emissive(vv,0,0);    //  just a skooch of RED
+
 
 //  DEEP ON THE BLUES
 //fill(getSeven( (int)vect.x,255), getSeven( (int)vect.y,245), getSeven( (int)vect.z,255), 225);    //  better without %42 or 255
+//stroke(getSeven( (int)vect.x,255), getSeven( (int)vect.y,245), getSeven( (int)vect.z,255));    //  better without %42 or 255
 //emissive(getSeven( (int)vect.x,255), getSeven( (int)vect.y,245), getSeven( (int)vect.z,255) );    //  a lil too hot w/ noStroke();
 
 //  DECENT PASTEL / WATER COLOR LIKE
 //fill(getSeven(7,(int)vect.x), getSeven(w ,245), getSeven(7,(int)vect.y), 225);
+//stroke(getSeven(7,(int)vect.x), getSeven(w ,245), getSeven(7,(int)vect.y) );
 //emissive(getSeven(7,(int)vect.x), getSeven(w ,245), getSeven(7,(int)vect.y));
 
 //  HOT PINK ICE QUEEN
 //fill(getSeven( w, (int)vect.x), getSeven( w, (int)vect.y), getSeven( (int)vect.x,width ), 225);
+//stroke(getSeven( w, (int)vect.x), getSeven( w, (int)vect.y), getSeven( (int)vect.x,width ));
 //emissive(getSeven( w, (int)vect.x), getSeven( w, (int)vect.y), getSeven( (int)vect.x,width ));
 
-//  DIRTY RASTA
-fill(getSeven( xx, (int)vect.x), getSeven( yy, (int)vect.y ), getSeven( vv, (int)vect.z),  225);
-
+//  DIRTY RASTA - THIS IS FIREY W/noStroke()
+//fill(getSeven( xx, (int)vect.x), getSeven( yy, (int)vect.y ), getSeven( vv, (int)vect.z),  225);
+////stroke(getSeven( xx, (int)vect.x), getSeven( yy, (int)vect.y ), getSeven( vv, (int)vect.z));
 //    emissive(255,0,0);    //  RED + DIRTY RASTA is all red & yellow like fire!!!!
 
 

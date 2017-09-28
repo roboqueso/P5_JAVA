@@ -142,7 +142,7 @@ public class Main extends PApplet {
             stroke(frameCount%227);
 
             // FILL YOURSELF
-            texture( get() );
+            texture( get(xx,yy,width, w+ct) );
 
             for(int vv = 0; vv < tmp.getVertexCount(); vv++ )
             {

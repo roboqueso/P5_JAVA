@@ -123,19 +123,19 @@ public class Main extends PApplet {
         shape(tmp);
 
         beginShape();
+
             //  CAMERA
             if(cam!=null){texture(cam);}
 
             stroke(frameCount%255);
+            filter(INVERT);
 
             for(int vv = 0; vv < tmp.getVertexCount(); vv++ )
             {
                 PVector vect = tmp.getVertex(vv);
                 vertex( vect.x, vect.y, vect.z, vect.y, vect.x );
-
-                // NOTE : texture() only works with vertex()
             }
-        endShape();
+        endShape(CLOSE);
 
         //  do the FredV
         pushMatrix();

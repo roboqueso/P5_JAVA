@@ -31,7 +31,7 @@ public class Main extends PApplet {
 
     @Override
     public  void  settings ()  {
-        size(666, 666, "processing.opengl.PGraphics3D");
+        size(1280, 720, "processing.opengl.PGraphics3D");   // size update for video
 
 
     }

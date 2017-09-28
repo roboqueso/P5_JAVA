@@ -142,9 +142,7 @@ public class Main extends PApplet {
 
 
         //  just one shape
-        beginShape();
-
-            stroke(frameCount%227);
+        beginShape(POLYGON);
 
             // FILL YOURSELF -> don't get FULL desktop, just get w x w
             texture( get(xx, yy,w*2, w*2) );
@@ -153,23 +151,26 @@ public class Main extends PApplet {
             {
                 PVector vect = tmp.getVertex(vv);
 
-                vertex( vect.x, vect.y, vect.z, vect.y, vect.x );
+                stroke(frameCount%227);
+
+                vertex( vect.x, vect.y, vect.z, vect.x, vect.y );
             }
-        endShape();
+        endShape(CLOSE);
 
 
         //  SHAPE3
         //  do the FredV
-//        pushMatrix();
-//
-//            stroke(frameCount%227);
-//
-//            translate(xx, yy, w);
-//            scale(random(.6f,4.2f));
-//            rotate(tmp.getVertexCount());
-//
-//            shape(tmp);
-//        popMatrix();
+        pushMatrix();
+
+            stroke(frameCount%227);
+
+            translate(xx, yy, w);
+
+            scale(random(.6f,4.2f));
+            rotate(tmp.getVertexCount());
+
+            shape(tmp);
+        popMatrix();
 
 
 

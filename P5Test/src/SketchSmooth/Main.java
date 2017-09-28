@@ -132,9 +132,10 @@ public class Main extends PApplet {
 
         tmp = shapeJuan(xx, yy, w, ct);
 
-//        fill(frameCount%255, xx%255, yy%255, 100);
+        noFill();
         stroke(frameCount%255);
 
+        texture(get(0,0,width, w+ct));
         //  SHAPE1
         shape(tmp);
 
@@ -142,6 +143,8 @@ public class Main extends PApplet {
         beginShape();
 
             stroke(frameCount%255);
+
+            texture(get(0,0,width, w*ct));
 
             for(int vv = 0; vv < tmp.getVertexCount(); vv++ )
             {
