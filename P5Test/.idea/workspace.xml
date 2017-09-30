@@ -16,11 +16,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BezCurQua/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/SketchPreview/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="151" column="5" lean-forward="true" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="2319">
+              <caret line="186" column="57" lean-forward="false" selection-start-line="186" selection-start-column="57" selection-end-line="186" selection-end-column="57" />
+              <folding>
+                <element signature="e#15197#15198#0" expanded="true" />
+                <element signature="e#15249#15250#0" expanded="true" />
+                <marker date="1506737367000" expanded="false" signature="14690:14701" ph=" { " />
+                <marker date="1506737367000" expanded="false" signature="14788:14794" ph=" }" />
+                <marker date="1506737367000" expanded="false" signature="14892:14903" ph=" { " />
+                <marker date="1506737367000" expanded="false" signature="14942:14948" ph=" }" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,11 +43,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get()</find>
-      <find>hint</find>
-      <find>TextureTweak</find>
-      <find>todo</find>
-      <find>227</find>
       <find>get(</find>
       <find>smooth(</find>
       <find>CurveJuice</find>
@@ -63,9 +65,14 @@
       <find>sketchsmoo</find>
       <find>ENABLE_DEPTH_SORT</find>
       <find>getSeve</find>
-      <find>save</find>
       <find>save(</find>
       <find>size(</find>
+      <find>CurveLineTodo</find>
+      <find>save</find>
+      <find>vertex</find>
+      <find>vertex(</find>
+      <find>-O3</find>
+      <find>background</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -82,6 +89,8 @@
       <replace>ctl2</replace>
       <replace>* // TODO: get your JAVADOC on https://en.wikipedia.org/wiki/Javadoc -- http://www.oracle.com/technetwork/articles/java/index-137868.html</replace>
       <replace>CurveLineTodo</replace>
+      <replace>SketchPreview</replace>
+      <replace>-O3 --lossy=80</replace>
     </replaceStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -112,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/CurveLineTodo/Main.java" />
         <option value="$PROJECT_DIR$/src/CurveJuice/Main.java" />
         <option value="$PROJECT_DIR$/src/BezCurQua/Main.java" />
+        <option value="$PROJECT_DIR$/src/SketchPreview/Main.java" />
       </list>
     </option>
   </component>
@@ -135,9 +145,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,97 +164,13 @@
               <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="P5Test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BezCurQua" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Bueno" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CurveJuice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CurveLineTodo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FillYourself" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LisaCam" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="PI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SketchSmooth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TextureTweak" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Thirteen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ZombieCurves" type="462c0819:PsiDirectoryNode" />
+              <item name="SketchPreview" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,11 +189,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="SketchPreview" />
       <recent name="CurveLineTodo" />
       <recent name="BezCurQua" />
       <recent name="ZombieCurves" />
       <recent name="CurveJuice" />
-      <recent name="Noodling" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/SketchSmooth" />
@@ -285,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BezCurQua">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BezCurQua" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -362,17 +288,17 @@
       <module name="P5Test" />
       <envs />
     </configuration>
-    <configuration name="FillYourself" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="FillYourself.*" />
+          <option name="PATTERN" value="SketchPreview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="FillYourself.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="SketchPreview.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -463,19 +389,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FillYourself" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CurveLineTodo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CurveJuice" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Bueno" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BezCurQua" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CurveLineTodo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CurveJuice" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Bueno" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BezCurQua" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BezCurQua" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Bueno" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CurveJuice" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CurveLineTodo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FillYourself" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BezCurQua" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Bueno" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CurveJuice" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CurveLineTodo" />
       </list>
     </recent_temporary>
   </component>
@@ -524,8 +450,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08737093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32804233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21247022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1096108" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -538,6 +463,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961673" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32804233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -556,18 +482,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="16" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CurveJuice/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TextureTweak/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -906,9 +825,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BezCurQua/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="151" column="5" lean-forward="true" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
+        <state relative-caret-position="900">
+          <caret line="185" column="0" lean-forward="true" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SketchPreview/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2319">
+          <caret line="186" column="57" lean-forward="false" selection-start-line="186" selection-start-column="57" selection-end-line="186" selection-end-column="57" />
+          <folding>
+            <element signature="e#15197#15198#0" expanded="true" />
+            <element signature="e#15249#15250#0" expanded="true" />
+            <marker date="1506737367000" expanded="false" signature="14690:14701" ph=" { " />
+            <marker date="1506737367000" expanded="false" signature="14788:14794" ph=" }" />
+            <marker date="1506737367000" expanded="false" signature="14892:14903" ph=" { " />
+            <marker date="1506737367000" expanded="false" signature="14942:14948" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
