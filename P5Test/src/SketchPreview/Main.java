@@ -37,9 +37,8 @@ import java.io.File;
      > Turn this sketch into a routine workflow step when ending one iteration.
      > Each version has a {sketchname}_preview.gif allowing for quick preview when scanning source
 
- * ---------------------------------
- *
- *
+
+
  * ---------------------------------
  *  HISTORY
  * ---------------------------------
@@ -168,10 +167,11 @@ public class Main extends PApplet {
     PVector ctl2 = new PVector();
 
     String PROJECT_ROOT = System.getProperty("user.dir");
-//    String PNG_OUT = PROJECT_ROOT + "/out/";  //  standard project out
+
+    //    String PNG_OUT = PROJECT_ROOT + "/out/";  //  standard project out
 
     //  output to this sketch's /frames/ folder
-    String SKETCH_PATH = PROJECT_ROOT + "/src/" + getClass().getName().replace(".Main","");
+    String SKETCH_PATH = PROJECT_ROOT + "/src/" + pdeName().replace(".Main","");
     String PNG_OUT = SKETCH_PATH + "/frames/";
 
 
@@ -182,9 +182,6 @@ public class Main extends PApplet {
 
         smooth(8);  //  smooth() can only be used in settings();
         pixelDensity(displayDensity());
-
-        //  make preview.gif using gifsicle
-        print("gifsicle -i -l -t=255 -O=3 -D=2 -d42 -k 16 --no-extensions "+PNG_OUT+"*.gif > "+SKETCH_PATH+"/preview.gif" + "\n");
     }
 
 
@@ -233,31 +230,29 @@ public class Main extends PApplet {
 
         tmp = shapeJous(xx, yy, w, ct);
 
-// debug - show point count
-//textSize(w/2);
-//text( tmp.getVertexCount() , xx, yy, w+ct );
-noStroke();
+        beginShape(POLYGON); // TODO: what effect does POLYGON have on this sketch?
 
-        beginShape();   //(POLYGON);
-
-
-            texture(get());
+            texture(get(xx,yy,width,w));
 
             //  put down a vertex for the curves - remember the XY for texture action w/LINE mode
             vertex(xx, yy, w, xx+w, yy+w);
 
-
             //  using final vertex as control point
             ctl2 = tmp.getVertex(tmp.getVertexCount() - 1);
+
+//        // BETA x/y/z colored lighting
+//        ambientLight( ctl2.x%255, ctl2.y%255, ctl2.y+w+ct%255 );
+//        emissive(ctl2.x%255, ctl2.y%255, ctl2.y+w+ct%255 );
+//        specular(ctl2.x%255, ctl2.y%255, ctl2.y+w+ct%255 );
 
             for(int vv = 0; vv < tmp.getVertexCount(); vv++ )
             {
                 vect = tmp.getVertex(vv);   // GET VERTEX 1ST, color below depends on it
 
-
                 // standard B&W action
                 noFill();
                 stroke(vect.x%255 );
+                tint(vect.x%255 );  // because texture()
 
                     switch (CURVE_MODE) {
 
@@ -333,8 +328,12 @@ noStroke();
             //  don't use 2D logic w/3D coordinates
         } else if (yy >= height ) {
 
+//  DEBUG
+println("ct : " + ct + " &  CURVE_MODE : " + CURVE_MODE);
+
             //  Save for reference
             savePng(ct + " = " + CURVE_MODE);
+
 
             xx = yy = w;
 
@@ -354,6 +353,10 @@ noStroke();
 
         //  stopper
         if(ct>36){
+
+//  TODO: continue to optimize this process so _preview.gif is small as possible, but still good quality
+print("gifsicle -k 512 --use-col=web -i --batch -O=3 "+PNG_OUT+"*.gif -o "+PNG_OUT+"*.gif \n");
+print("gifsicle -i -l -t=255 -D=2 -d42 --no-extensions --resize 640x360 -O3 "+PNG_OUT+"*.gif > "+SKETCH_PATH+"/"+pdeName()+getTimestamp()+"_preview.gif \n");
 
             doExit();
         }
@@ -389,7 +392,7 @@ noStroke();
      */
     private void doExit(){
         //  save on exit
-        savePng("ERICFICKES.COM");
+//        savePng("ERICFICKES.COM");
 
         System.gc();
         noLoop();
@@ -435,7 +438,7 @@ noStroke();
         background(255);
 
         /*
-        BLEND - linear interpolation of colours: C = A*factor + B. This is the default blending mode.
+            BLEND - linear interpolation of colours: C = A*factor + B. This is the default blending mode.
         ADD - additive blending with white clip: C = min(A*factor + B, 255)
         SUBTRACT - subtractive blending with black clip: C = max(B - A*factor, 0)
         DARKEST - only the darkest colour succeeds: C = min(A*factor, B)
@@ -445,8 +448,12 @@ noStroke();
         MULTIPLY - multiply the colors, result will always be darker.
         SCREEN - opposite multiply, uses inverse values of the colors.
         REPLACE - the pixels entirely replace the others and don't utilize alpha (transparency) values
+
+        blendMode(ADD);  // TODO: experiment with blendMode() -> P3D doesn't seem to like this
         */
-//        blendMode(SCREEN);
+
+
+
 
         strokeCap(ROUND);
         strokeJoin(ROUND);
@@ -503,53 +510,20 @@ noStroke();
     }
 
 
-    /*
-
-    /**
-     * Pick a random multiple of 7 between a min and max number pair
-     * /
-    int getSeven(int min, int max)
-    {
-        int safecatch = 1, val=1;
-
-        //	be safe
-        if((min<max) && max>0)
-        {
-            while( ((val%7)!=0 ) && safecatch<7)
-            {
-                val = (int)random(min,max);
-                // don't loop more than 7 times
-                safecatch++;
-            }
-        }
-/*
-possible replacement
-
-    int getSeven(int max){
-        int value = (int)random(7, (max / 7) * 7);
-        return value == 0 ? 1 : value;
-    }
- * /
-
-        return val;
-    }
-
-
-*/
-
 
 
     /**
-     * Spit out timestamp.  Current format "MM-dd-yyy-HHmmss"
+     * Spit out timestamp.  Current format "MMddyyyHHmmss"
      * @return
      */
     String getTimestamp() {
-        return new java.text.SimpleDateFormat("MM-dd-yyy-HHmmss").format(new java.util.Date());
+        return new java.text.SimpleDateFormat("MMddyyyHHmmss").format(new java.util.Date());
     }
 
 
     /**
      * Returns FOLDER.MAIN "pdeName"
+     * aka : JAVA getClass().getName()
      *
      * @return
      */
