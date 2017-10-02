@@ -14,20 +14,13 @@
     <SUITE FILE_PATH="coverage/P5Test$Main.coverage" NAME="Main Coverage Results" MODIFIED="1504129917414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SketchPreview/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/BOOTCAMP/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="357" column="37" lean-forward="false" selection-start-line="357" selection-start-column="37" selection-end-line="357" selection-end-column="37" />
-              <folding>
-                <element signature="e#14589#14590#0" expanded="true" />
-                <element signature="e#14688#14689#0" expanded="true" />
-                <marker date="1506917241000" expanded="false" signature="14826:14837" ph=" { " />
-                <marker date="1506917241000" expanded="false" signature="14876:14882" ph=" }" />
-                <marker date="1506917241000" expanded="false" signature="15130:15141" ph=" { " />
-                <marker date="1506917241000" expanded="false" signature="15178:15184" ph=" }" />
-              </folding>
+            <state relative-caret-position="163">
+              <caret line="52" column="22" lean-forward="false" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -43,7 +36,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>class Main</find>
       <find>background(255)</find>
       <find>strokeWeight</find>
       <find>text</find>
@@ -73,6 +65,7 @@
       <find>MM-dd-yyy-HHmmss</find>
       <find>blendMo</find>
       <find>doExit</find>
+      <find>gifsicle</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -117,10 +110,11 @@
         <option value="$PROJECT_DIR$/src/MoreCurves/Main.java" />
         <option value="$PROJECT_DIR$/src/LisaCam/Main.java" />
         <option value="$PROJECT_DIR$/src/SketchPreview/Main.java" />
+        <option value="$PROJECT_DIR$/src/BOOTCAMP/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1436" />
     <option name="height" value="878" />
@@ -140,20 +134,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P5Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P5Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BOOTCAMP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -195,7 +200,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SketchPreview">
+  <component name="RunManager" selected="Application.BOOTCAMP">
+    <configuration name="BOOTCAMP" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="BOOTCAMP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="BOOTCAMP.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="P5Test" />
+      <envs />
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" singleton="true" temporary="true" show_console_on_std_out="true" show_console_on_std_err="true" nameIsGenerated="true">
       <output_file path="$PROJECT_DIR$/out" is_save="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -311,14 +335,16 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.SketchPreview" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BOOTCAMP" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.SketchPreview" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.BOOTCAMP" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SketchPreview" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +375,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1436" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20710507" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -359,13 +384,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1532567" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15197957" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17144907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16140603" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17144907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16355811" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -398,7 +423,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CurveJuice/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/TextureTweak/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/TextureTweak/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/FillYourself/Main.java" />
@@ -485,20 +509,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-3.3.5.jar!/processing/core/ThinkDifferent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-3.3.5.jar!/processing/core/PApplet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96317">
-          <caret line="90" column="13" lean-forward="false" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/core-3.3.5.jar!/processing/core/ThinkDifferent.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/core-3.3.5.jar!/processing/core/PApplet.class" />
     <entry file="file://$PROJECT_DIR$/P5Test.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -513,27 +525,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-3.3.5.jar!/processing/core/PShape.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6125">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-3.3.5-sources.jar!/processing/core/PShape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="75" column="21" lean-forward="true" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/core-3.3.5-sources.jar!/processing/core/PApplet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-795">
-          <caret line="11540" column="16" lean-forward="false" selection-start-line="11540" selection-start-column="16" selection-end-line="11540" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/core-3.3.5.jar!/processing/core/PShape.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/core-3.3.5-sources.jar!/processing/core/PShape.java" />
+    <entry file="jar://$PROJECT_DIR$/lib/core-3.3.5-sources.jar!/processing/core/PApplet.java" />
     <entry file="file://$PROJECT_DIR$/src/Test4/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1950">
@@ -591,33 +585,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
           <caret line="187" column="0" lean-forward="true" selection-start-line="184" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MoreCurves/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/LisaCam/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SketchPreview/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="357" column="37" lean-forward="false" selection-start-line="357" selection-start-column="37" selection-end-line="357" selection-end-column="37" />
-          <folding>
-            <element signature="e#14589#14590#0" expanded="true" />
-            <element signature="e#14688#14689#0" expanded="true" />
-            <marker date="1506917241000" expanded="false" signature="14826:14837" ph=" { " />
-            <marker date="1506917241000" expanded="false" signature="14876:14882" ph=" }" />
-            <marker date="1506917241000" expanded="false" signature="15130:15141" ph=" { " />
-            <marker date="1506917241000" expanded="false" signature="15178:15184" ph=" }" />
-          </folding>
+        <state relative-caret-position="422">
+          <caret line="359" column="0" lean-forward="true" selection-start-line="356" selection-start-column="0" selection-end-line="359" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BOOTCAMP/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="52" column="22" lean-forward="false" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -679,6 +673,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -697,7 +692,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>core</last-edited>
+          <last-edited>gstreamer-java</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
