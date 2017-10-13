@@ -12,6 +12,9 @@ import processing.video.Capture;
  */
 
 
+//  TODO: come back and fix weird image saving problem
+//  missing frames folder most likely
+
 /**
  *  Observation : Processing's save() has started writing to /Applications/ this.png instead of the project root
  *  as before.
@@ -19,8 +22,8 @@ import processing.video.Capture;
  *      Running previous sketch doesn't fix, so don't know that it's related to Capture or not
  *
  *  // TODO : FIX FILE PATH SO PNGS SAVE WHERE YOU WANT THEM
-    //            String base = new java.io.File( "." ).getCanonicalPath();
-    //HACK : SAVE started saved to /Applications/
+ //            String base = new java.io.File( "." ).getCanonicalPath();
+ //HACK : SAVE started saved to /Applications/
  *
  * - PNGs are now saving to the P5Test/out folder
  * save(  "/Users/fickes/Documents/IntelliJ/P5Test/out/" + this + "_" + ct + ".png");
@@ -98,7 +101,7 @@ public class Main extends PApplet {
         xx = yy = w;
         xyInc = (int)(w*2);    // x|y increment grid control
 
-        cam = new Capture(this, Capture.list()[15]);    //  15
+        cam = new Capture(this, Capture.list()[0]);    //  15
         cam.start();
 
     }
@@ -118,39 +121,37 @@ public class Main extends PApplet {
         noFill();
         stroke(frameCount%255);
 
-        //  CAMERA
-        if(cam!=null){texture(cam);}
         shape(tmp);
 
         beginShape();
 
-            //  CAMERA
-            if(cam!=null){texture(cam);}
+        //  CAMERA
+        if(cam!=null){texture(cam);}
 
-            stroke(frameCount%255);
-            filter(INVERT);
+        stroke(frameCount%255);
+        filter(INVERT);
 
-            for(int vv = 0; vv < tmp.getVertexCount(); vv++ )
-            {
-                PVector vect = tmp.getVertex(vv);
-                vertex( vect.x, vect.y, vect.z, vect.y, vect.x );
-            }
+        for(int vv = 0; vv < tmp.getVertexCount(); vv++ )
+        {
+            PVector vect = tmp.getVertex(vv);
+            vertex( vect.x, vect.y, vect.z, vect.y, vect.x );
+        }
         endShape(CLOSE);
 
         //  do the FredV
         pushMatrix();
 
-    //TODO: how do you get 3D shapes different color than 2D shapes?
+        //TODO: how do you get 3D shapes different color than 2D shapes?
 //            fill(255, frameCount%255, frameCount%255);
-            stroke(frameCount%255);
+        stroke(frameCount%255);
 
-            translate(xx, yy, w);
-            scale(random(.6f,4.2f));
-            rotate(random(HALF_PI, TWO_PI));
+        translate(xx, yy, w);
+        scale(random(.6f,4.2f));
+        rotate(random(HALF_PI, TWO_PI));
 //  CAMERA
-if(cam!=null){texture(cam);}
+        if(cam!=null){texture(cam);}
 
-            shape(tmp);
+        shape(tmp);
         popMatrix();
 
 
@@ -159,7 +160,7 @@ if(cam!=null){texture(cam);}
             xx = w;
             yy += xyInc;
 
-        //  don't use 2D logic w/3D coordinates
+            //  don't use 2D logic w/3D coordinates
         } else if (yy >= height ) {
 
 
@@ -253,12 +254,12 @@ if(cam!=null){texture(cam);}
         strokeCap(ROUND);
         strokeJoin(ROUND);
 
-hint(DISABLE_DEPTH_SORT);
-hint(DISABLE_DEPTH_TEST);
-hint(DISABLE_OPENGL_ERRORS);
-hint(DISABLE_ASYNC_SAVEFRAME);
-hint(DISABLE_BUFFER_READING);
-hint(DISABLE_DEPTH_MASK);
+        hint(DISABLE_DEPTH_SORT);
+        hint(DISABLE_DEPTH_TEST);
+        hint(DISABLE_OPENGL_ERRORS);
+        hint(DISABLE_ASYNC_SAVEFRAME);
+        hint(DISABLE_BUFFER_READING);
+        hint(DISABLE_DEPTH_MASK);
 
 
 
