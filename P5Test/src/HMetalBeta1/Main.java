@@ -404,6 +404,7 @@ print("gifsicle -i -l -t=255 -D=2 -d42 "+PNG_OUT+"*.gif > "+SKETCH_PATH+"/"+pdeN
     /**
      * Returns FOLDER.MAIN "pdeName"
      *
+     *
      * @return
      */
     String pdeName() {
