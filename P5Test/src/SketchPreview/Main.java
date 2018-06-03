@@ -1,7 +1,6 @@
 package SketchPreview;
 
 
-import com.sun.jna.platform.win32.WinDef;
 import processing.core.PApplet;
 import processing.core.PShape;
 import processing.core.PVector;

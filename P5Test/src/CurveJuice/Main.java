@@ -5,7 +5,7 @@ package CurveJuice;
 import processing.core.PApplet;
 import processing.core.PShape;
 import processing.core.PVector;
-import sun.jvm.hotspot.debugger.posix.elf.ELFSectionHeader;
+
 
 
 /**
