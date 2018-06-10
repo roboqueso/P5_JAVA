@@ -10,9 +10,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="library" level="project" />
-    <orderEntry type="library" name="core" level="project" />
     <orderEntry type="library" name="gstreamer-java" level="project" />
     <orderEntry type="library" name="FIXLIB" level="project" />
+    <orderEntry type="library" name="HYPE" level="project" />
+    <orderEntry type="library" name="core" level="project" />
   </component>
 </module>
