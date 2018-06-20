@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="HYPE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Processing/libraries/HYPE/library/HYPE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

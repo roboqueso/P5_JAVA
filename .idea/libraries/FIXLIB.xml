@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="FIXLIB">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Processing/libraries/FIXLIB/library/FIXLIB.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

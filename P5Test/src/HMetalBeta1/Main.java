@@ -7,6 +7,9 @@ import processing.core.PVector;
 import processing.video.Capture;
 
 /**
+ * THIS ISN'T USING HMetal from HYPE
+ *
+ *
  * ---------------------------------
  *  10/12/2017 : HMetalBeta1
  *
